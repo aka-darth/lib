@@ -1,0 +1,75 @@
+
+.right {
+	float: right;
+}
+.left {
+	float: left;
+}
+.clearfix{
+	clear: both;
+	float: none;
+	width: 100%;
+}
+.clickable {
+	cursor: pointer;
+}
+a {
+	color: #ffa500;
+}
+a:visited{
+	color: #aa7500;
+}
+
+
+.bg{
+	width:100%;
+	height: 100%;
+	position: fixed;
+	z-index: -100;
+	background: url('/img/bg.jpg');
+}
+
+
+.modal_overlay{
+	margin: 0;
+	padding: 0;
+	left: 0;
+	top: 0;
+	z-index: 600;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	display: none;
+}
+.modal{
+	position: fixed;
+	user-select: none;
+border: 1px solid black;
+	margin: 50px auto;
+	padding: 5px;
+	background: rgba(125, 68, 28, 0.4);
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.4);
+	width: max-content;
+}
+.modal>*{
+	padding: 25px;
+}
+
+
+
+.panel {
+	margin: 0;
+	padding: 0;
+	position: fixed;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.5);
+}
+.panel a{
+	color: white;
+	padding: 2px;
+}
+.panel  * {
+	margin: 4px;
+}
+
